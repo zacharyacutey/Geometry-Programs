@@ -1,5 +1,5 @@
 import math
-
+solution=None
 def law_of_cosines():
 	global solution
 
