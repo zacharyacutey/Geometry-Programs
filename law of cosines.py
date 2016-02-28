@@ -6,11 +6,10 @@ def law_of_cosines():
 	#supposed to loop until the user inputs either "1" or "2"
 	while True:
 		is_user_solving_for_side_or_angle = input("Are you solving for a \n1. Side\n2. Angle\n\nAnswer: ")
-		if is_user_solving_for_side_or_angle == 1 | 2:
+		if is_user_solving_for_side_or_angle == "1" or is_user_solving_for_side_or_angle== "2":
 			break
 		else:
 			print("\n\nI don't quite understand what you're trying to tell me.  Could you type that again?\n\n")
-			continue
 
 	if is_user_solving_for_side_or_angle == "1":
 		a = int(input("A: "))
